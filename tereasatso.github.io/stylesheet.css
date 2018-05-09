@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	width: 1400px;
+	background: #E4F1F3;
+	margin: 0 auto;
+	overflow: hidden;
+	}
+
+#header {
+	font-family: 'Poiret One';
+	font-weight:bold;
+	font-size: 50px;
+	text-align:center;
+}
+
+
+#box1{
+	width: 1400px;
+	height: 50px;
+	background-color:#E0F4F7;
+ 
+}
+
+
+#box2{
+	width: 1400px;
+	height: 1000px;
+	background-color:#E4F1F3  
+}
+
+	
+#filler {
+	float: left;
+	background: #AFC9CD;
+	width: 800px;
+	height: 50px;
+}
+	
+#banner {
+	background-image: url(PIC2.jpg);
+	height: 404px;
+	width: 324px;
+}
+
+
+
+.nav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+	.nav li {
+		float: left;
+
+		}
+
+	.nav li a {
+		background: #AFC9CD;
+		height: 2.5em;
+		line-height: 2.5em;
+		float: left;
+		width: 10em;
+		
+		color: black;
+		text-decoration: none;
+		text-align: center;
+		font-family: 'Poiret One';
+		font-size: 20px;
+		font-weight: bold;
+		}
+
+	<!--Hide from IE5-Mac-->
+	nav li a {
+		float: none
+		}
+	<!--End hide-->
+
+	.nav {
+		width:30em
+		} 
+
+
+#convbox {
+float: left;
+width: 1400px;
+font-family: 'Poiret One';
+font-weight: bold;
+font-size: 12px;
+color: black;
+text-align: left;
+padding: 0px 0px 0px 0px;
+}
+
+
+#column1 {
+float: left;
+width: 300px;
+text-indent: 150px;
+font-size: 20px;
+color: black;
+}
+
+#column2 {
+float: left;
+width: 400px;
+text-indent: 185px;
+font-size: 20px;
+color: black;
+}
+
+#column3 {
+float: left;
+width: 400px;
+text-indent: 200px;
+font-size: 20px;
+color: black;
+}
+
+#column4 {
+float: left;
+width: 900px;
+text-indent: 550px;
+font-size: 20px;
+color: black;
+}
+
+			
+#footer {
+	text-align: right; 
+	font-family: 'Poiret One';
+	font-weight:bold;
+	background-color: #AFC9CD; 
+	margin: 0 auto;
+	padding: 5px 0px 5px 0px;
+	width: 1400px; 
+	color: black;
+	}
